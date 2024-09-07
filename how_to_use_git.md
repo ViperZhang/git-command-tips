@@ -22,10 +22,26 @@ git init
 ```
 If you have successfully created a local repo, you can input command: ls -la to see .git files
 Note: .git files is a hidden files. If you use ls command you will not see it.
-## Add files to index (暂存区)
+## Add files to index 
 ```
 git add <filename>
 git add . (all files in the current path)
+```
+## Check files in index
+```
+git ls-files
+```
+## Remove files from index
+```
+git rm --cached <file name>
+```
+## Add .gitignore file
+```
+touch .gitignore 
+```
+## Add file type in ignore file
+```
+vi .gitignore 
 ```
 ## Commit to local repository
 ```
@@ -39,10 +55,6 @@ git commit -m 'Revise file1.txt and add xxx functions to this project......'
 ## Check files in workspace 
 ```
 git status 
-```
-## Check files in index
-```
-git ls-files
 ```
 ## Check commit log
 ```
