@@ -90,7 +90,7 @@ git switch -c <branch name>  create a new branch and switch to it
 ## Operate remote repository
 ### add link between local repository to remote repository
 ```
-git add remote <name (usually use origin)> <remote repo's SSH>
+git remote add <name (usually use origin)> <remote repo's SSH>
 ```
 ### delete a remote repo
 ``` 
