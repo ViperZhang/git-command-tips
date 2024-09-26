@@ -118,6 +118,10 @@ One local repo can link two or more remote repos. Here are some useful commands
 git remote add Github_repo github's SSH
 git remote add Gitee_repo gitee's SSH
 ```
+### delete link from remote repository
+```
+git remote remove <remote repo's name> 
+```
 ### clone a open source remote repo from github or gitee
 ```
 git clone <remote repo's SSH> [local path]
