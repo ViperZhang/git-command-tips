@@ -115,8 +115,8 @@ git push -u <remote repo's name usually is original> main
 ```
 One local repo can link two or more remote repos. Here are some useful commands
 ```
-git add remote Github_repo github's SSH
-git add remote Gitee_repo gitee's SSH
+git remote add Github_repo github's SSH
+git remote add Gitee_repo gitee's SSH
 ```
 ### clone a open source remote repo from github or gitee
 ```
